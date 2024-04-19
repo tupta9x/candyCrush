@@ -1,0 +1,28 @@
+.candy-block {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+@media (max-width: 415px) {
+  .candy-block {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 818px) {
+  .candy-block {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 819px) {
+  .candy-block {
+    width: 65px;
+    height: 65px;
+  }
+}
